@@ -45,7 +45,7 @@
 
 #define FLAG_MODERN_EXPSHARE 0x20
 #define FLAG_UNUSED_0x021    0x21 // DEXNAV (now in use)
-#define FLAG_DEXNAV_GET      0x22 // DEXNAV
+#define FLAG_UNUSED_0x022    0x22 // DEXNAV
 #define FLAG_UNUSED_0x023    0x23 // DEXNAV
 #define FLAG_UNUSED_0x024    0x24 // DEXNAV
 #define FLAG_UNUSED_0x025    0x25 // DEXNAV
