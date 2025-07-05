@@ -28,7 +28,7 @@
 // object gfx id vars
 // These 0x10 vars are used to dynamically control a map object's sprite.
 // For example, the rival's sprite id is dynamically set based on the player's gender.
-// See VarGetObjectEventGraphicsId().
+// See VarGetObjectEventGraphicsId().3
 #define VAR_OBJ_GFX_ID_0           0x4010
 #define VAR_OBJ_GFX_ID_1           0x4011
 #define VAR_OBJ_GFX_ID_2           0x4012
@@ -117,11 +117,11 @@
 #define VAR_ROUTE102_STATE                               0x4061 // Unused Var
 #define VAR_ROUTE103_STATE                               0x4062 // Unused Var
 #define VAR_ROUTE104_STATE                               0x4063
-#define VAR_ROUTE105_STATE                               0x4064 // Unused Var
-#define VAR_ROUTE106_STATE                               0x4065 // Unused Var
-#define VAR_ROUTE107_STATE                               0x4066 // Unused Var
-#define VAR_ROUTE108_STATE                               0x4067 // Unused Var
-#define VAR_ROUTE109_STATE                               0x4068 // Unused Var
+#define VAR_DEXNAV_SEARCHING                             0x4064 // Unused Var
+#define VAR_DEXNAV_GET                                   0x4065 // Unused Var
+#define VAR_DEXNAV_DETECTOR                              0x4066 // Unused Var
+#define VAR_DEXNAV_SPECIES                               0x4067 // DEXNAV
+#define VAR_DEXNAV_STEPS                                 0x4068 // DEXNAV
 #define VAR_ROUTE110_STATE                               0x4069
 #define VAR_ROUTE111_STATE                               0x406A // Unused Var
 #define VAR_ROUTE112_STATE                               0x406B // Unused Var

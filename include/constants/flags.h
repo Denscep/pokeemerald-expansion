@@ -44,11 +44,11 @@
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
 #define FLAG_MODERN_EXPSHARE 0x20
-#define FLAG_UNUSED_0x021    0x21 // DEXNAV (now in use)
-#define FLAG_UNUSED_0x022    0x22 // DEXNAV
-#define FLAG_UNUSED_0x023    0x23 // DEXNAV
-#define FLAG_UNUSED_0x024    0x24 // DEXNAV
-#define FLAG_UNUSED_0x025    0x25 // DEXNAV
+#define FLAG_DEXNAV_SEARCH   0x21 // DEXNAV
+#define FLAG_DEXNAV_GET      0x22 // DEXNAV
+#define FLAG_DEXNAV_DETECTOR 0x23  // DEXNAV
+#define FLAG_UNUSED_0x024    0x24 // Unused Flag
+#define FLAG_UNUSED_0x025    0x25 // Unused Flag
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag
