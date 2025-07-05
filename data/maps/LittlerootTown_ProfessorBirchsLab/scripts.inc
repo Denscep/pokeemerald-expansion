@@ -745,17 +745,17 @@ LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "this POKéDEX.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
-	.string "{PLAYER} received the POKéDEX!$"
+	.string "{PLAYER} received the POKéDEX and DexNav!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
 	.string "tool that automatically makes a record\l"
 	.string "of any POKéMON you meet or catch.\p"
 	.string "Also, take this DexNav. It allows\n"
-	.string "you search out specific Pokémon!\p"
+	.string "you to search out specific Pokémon!\p"
 	.string "Maybe you'll even find some with\n"
 	.string "hidden abilities...\p"
-	.string "Have fun with your POKéDEX!$"
+	.string "Have fun with your POKéDEX and DexNav!$"
 	
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
