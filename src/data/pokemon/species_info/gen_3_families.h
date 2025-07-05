@@ -7,7 +7,7 @@ const struct SpeciesInfo gSpeciesInfoGen3[] =
     [SPECIES_TREECKO] =
     {
         .baseHP        = 40,
-        .baseAttack    = 45,
+        .baseAttack    = 200, // change back to 45 after testing
         .baseDefense   = 35,
         .baseSpeed     = 70,
         .baseSpAttack  = 65,
