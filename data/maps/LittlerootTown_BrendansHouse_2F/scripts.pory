@@ -304,6 +304,11 @@ PlayersHouse_2F_Text_ItsAGameCube:
 
 script LittlerootTown_BrendansHouse_2F_CheatConsole {
     lockall
-    msgbox("This is a test!")
+    msgbox(format("Receive free Rare Candies?"), MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES) {
+        giveitem(ITEM_RARE_CANDY, 999)
+        playfanfare(MUS_OBTAIN_ITEM)
+        msgbox(format("You received 999 Rare Candies!"), MSGBOX_DEFAULT)
+    }
     releaseall
 }
