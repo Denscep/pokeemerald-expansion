@@ -607,12 +607,29 @@ LittlerootTown_BrendansHouse_2F_CheatConsole::
 # 306 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	lockall
 # 307 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_0
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_0, MSGBOX_YESNO
 # 308 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_2
+LittlerootTown_BrendansHouse_2F_CheatConsole_1:
+# 313 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	releaseall
 	return
+
+LittlerootTown_BrendansHouse_2F_CheatConsole_2:
+# 309 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	giveitem ITEM_RARE_CANDY, 999
+# 310 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	playfanfare MUS_OBTAIN_ITEM
+# 311 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1, MSGBOX_DEFAULT
+	goto LittlerootTown_BrendansHouse_2F_CheatConsole_1
 
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_0:
 # 307 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "This is a test!$"
+	.string "Receive free Rare Candies?$"
+
+LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1:
+# 311 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "You received 999 Rare Candies!$"
