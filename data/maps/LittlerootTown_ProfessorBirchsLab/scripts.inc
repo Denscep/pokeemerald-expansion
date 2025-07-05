@@ -146,7 +146,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent::
 	applymovement LOCALID_PLAYER, LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForPokedex
 	waitmovement 0
 	setflag FLAG_DEXNAV_GET
-	setflag FLAG_DEXNAV_SEARCHING
+	setflag FLAG_DEXNAV_SEARCH
 	setflag FLAG_DEXNAV_DETECTOR
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
