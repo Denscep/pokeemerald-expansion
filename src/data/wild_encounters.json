@@ -7,30 +7,71 @@
         {
           "type": "land_mons",
           "encounter_rates": [
-            20, 20, 10, 10, 10, 10, 5, 5, 4, 4, 1, 1
+            20,
+            20,
+            10,
+            10,
+            10,
+            10,
+            5,
+            5,
+            4,
+            4,
+            1,
+            1
           ]
         },
         {
           "type": "water_mons",
           "encounter_rates": [
-            60, 30, 5, 4, 1
+            60,
+            30,
+            5,
+            4,
+            1
           ]
         },
         {
           "type": "rock_smash_mons",
           "encounter_rates": [
-            60, 30, 5, 4, 1
+            60,
+            30,
+            5,
+            4,
+            1
           ]
         },
         {
           "type": "fishing_mons",
           "encounter_rates": [
-            70, 30, 60, 20, 20, 40, 40, 15, 4, 1
+            70,
+            30,
+            60,
+            20,
+            20,
+            40,
+            40,
+            15,
+            4,
+            1
           ],
           "groups": {
-            "old_rod": [0, 1],
-            "good_rod": [2, 3, 4],
-            "super_rod": [5, 6, 7, 8, 9]
+            "old_rod": [
+              0,
+              1
+            ],
+            "good_rod": [
+              2,
+              3,
+              4
+            ],
+            "super_rod": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ]
           }
         }
       ],
@@ -43,36 +84,21 @@
             "mons": [
               {
                 "min_level": 2,
-                "max_level": 2,
-                "species": "SPECIES_WURMPLE"
+                "max_level": 3,
+                "species": "SPECIES_WEEDLE"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_CATERPIE"
               },
               {
                 "min_level": 2,
-                "max_level": 2,
-                "species": "SPECIES_WURMPLE"
+                "max_level": 4,
+                "species": "SPECIES_MEOWTH"
               },
               {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_WURMPLE"
-              },
-              {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
-              },
-              {
-                "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_POOCHYENA"
-              },
-              {
-                "min_level": 3,
+                "min_level": 2,
                 "max_level": 3,
                 "species": "SPECIES_WURMPLE"
               },
@@ -82,9 +108,24 @@
                 "species": "SPECIES_POOCHYENA"
               },
               {
+                "min_level": 3,
+                "max_level": 4,
+                "species": "SPECIES_AIPOM"
+              },
+              {
                 "min_level": 2,
-                "max_level": 2,
-                "species": "SPECIES_ZIGZAGOON"
+                "max_level": 3,
+                "species": "SPECIES_RATTATA"
+              },
+              {
+                "min_level": 3,
+                "max_level": 3,
+                "species": "SPECIES_ODDISH"
+              },
+              {
+                "min_level": 2,
+                "max_level": 3,
+                "species": "SPECIES_EEVEE"
               },
               {
                 "min_level": 2,
@@ -94,12 +135,12 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_ZIGZAGOON"
+                "species": "SPECIES_ABRA"
               },
               {
                 "min_level": 3,
-                "max_level": 3,
-                "species": "SPECIES_ZIGZAGOON"
+                "max_level": 4,
+                "species": "SPECIES_BULBASAUR"
               }
             ]
           }
