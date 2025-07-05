@@ -145,6 +145,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent::
 	lockall
 	applymovement LOCALID_PLAYER, LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForPokedex
 	waitmovement 0
+	setflag FLAG_SYS_NATIONAL_DEX
+	special EnableNationalPokedex
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex
 	end
 
