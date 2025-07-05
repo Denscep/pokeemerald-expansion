@@ -315,6 +315,11 @@ script LittlerootTown_BrendansHouse_2F_CheatConsole {
         if(var(VAR_RESULT) == YES){
             giveitem(ITEM_MASTER_BALL, 999)
         }
+
+          msgbox(format("Receive (gold) Nuggets?"), MSGBOX_YESNO)
+        if(var(VAR_RESULT) == YES){
+            giveitem(ITEM_BIG_NUGGET, 999)
+        }
        
     }
     releaseall

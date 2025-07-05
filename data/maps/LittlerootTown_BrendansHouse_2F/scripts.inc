@@ -612,24 +612,43 @@ LittlerootTown_BrendansHouse_2F_CheatConsole::
 	compare VAR_RESULT, YES
 	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_2
 LittlerootTown_BrendansHouse_2F_CheatConsole_1:
-# 313 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 320 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	releaseall
 	return
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_2:
 # 309 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	giveitem ITEM_RARE_CANDY, 999
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1, MSGBOX_YESNO
 # 310 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	playfanfare MUS_OBTAIN_ITEM
+	compare VAR_RESULT, YES
+	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_5
+LittlerootTown_BrendansHouse_2F_CheatConsole_4:
+# 314 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_2, MSGBOX_YESNO
+# 315 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_7
+	goto LittlerootTown_BrendansHouse_2F_CheatConsole_1
+
+LittlerootTown_BrendansHouse_2F_CheatConsole_5:
 # 311 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1, MSGBOX_DEFAULT
+	giveitem ITEM_RARE_CANDY, 999
+	goto LittlerootTown_BrendansHouse_2F_CheatConsole_4
+
+LittlerootTown_BrendansHouse_2F_CheatConsole_7:
+# 316 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	giveitem ITEM_MASTER_BALL, 999
 	goto LittlerootTown_BrendansHouse_2F_CheatConsole_1
 
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_0:
 # 307 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Receive free Rare Candies?$"
+	.string "Do you wish to access cheat items?$"
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1:
-# 311 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "You received 999 Rare Candies!$"
+# 309 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "Receive Rare Candies?$"
+
+LittlerootTown_BrendansHouse_2F_CheatConsole_Text_2:
+# 314 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "Receive Master Balls?$"
