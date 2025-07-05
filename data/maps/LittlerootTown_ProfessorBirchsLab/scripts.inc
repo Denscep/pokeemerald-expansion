@@ -145,6 +145,9 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent::
 	lockall
 	applymovement LOCALID_PLAYER, LittlerootTown_ProfessorBirchsLab_Movement_PlayerEnterLabForPokedex
 	waitmovement 0
+	setflag FLAG_DEXNAV_GET
+	setflag FLAG_DEXNAV_SEARCHING
+	setflag FLAG_DEXNAV_DETECTOR
 	setflag FLAG_SYS_NATIONAL_DEX
 	special EnableNationalPokedex
 	goto LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex
@@ -748,12 +751,12 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "PROF. BIRCH: The POKéDEX is a high-tech\n"
 	.string "tool that automatically makes a record\l"
 	.string "of any POKéMON you meet or catch.\p"
-	.string "My kid, {RIVAL}, goes everywhere\n"
-	.string "with it.\p"
-	.string "Whenever my kid catches a rare POKéMON\n"
-	.string "and records its data in the POKéDEX,\l"
-	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.$"
+	.string "Also, take this DexNav. It allows\n"
+	.string "you search out specific Pokémon!\p"
+	.string "Maybe you'll even find some with\n"
+	.string "hidden abilities...\p"
+	.string "Have fun with your POKéDEX!$"
+	
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "PROF. BIRCH: Countless POKéMON\n"
