@@ -5420,7 +5420,7 @@ void MonGainEVs(struct Pokemon *mon, u16 defeatedSpecies)
             int val2 = evs[i] + evIncrease;
             evIncrease = val1 - val2;
         }
-
+        
         evs[i] += evIncrease;
         totalEVs += evIncrease;
         SetMonData(mon, MON_DATA_HP_EV + i, &evs[i]);
