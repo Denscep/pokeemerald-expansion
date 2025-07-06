@@ -2125,10 +2125,11 @@ static void InitDomeTrainers(void)
     Free(statValues);
 }
 
-#define CALC_STAT(base, statIndex)                                                          \
+// EVs were removed from calculation
+#define CALC_STAT(base, statIndex)                                                         \
 {                                                                                           \
     u8 baseStat = gSpeciesInfo[fmon->species].base;                                                 \
-    stats[statIndex] = (((2 * baseStat + ivs + evs[statIndex] / 4) * level) / 100) + 5;     \
+    stats[statIndex] = (((2 * baseStat + ivs) * level) / 100) + 5;     \
     stats[statIndex] = (u8) ModifyStatByNature(fmon->nature, stats[statIndex], statIndex);        \
 }
 
@@ -2152,7 +2153,7 @@ static void CalcDomeMonStats(const struct TrainerMon *fmon, int level, u8 ivs, i
     else
     {
         int n = 2 * gSpeciesInfo[fmon->species].baseHP;
-        stats[STAT_HP] = (((n + ivs + evs[STAT_HP] / 4) * level) / 100) + level + 10;
+        stats[STAT_HP] = (((n + ivs) * level) / 100) + level + 10;
     }
 
     CALC_STAT(baseAttack, STAT_ATK);
