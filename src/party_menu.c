@@ -2876,6 +2876,7 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
         {
             if (GetMonData(&mons[slotId], i + MON_DATA_MOVE1) == sFieldMoves[j])
             {
+<<<<<<< HEAD
                // If Mon already knows FLY and the HM is in the bag, prevent it from being added to action list
                if (sFieldMoves[j] != MOVE_FLY || !CheckBagHasItem(ITEM_HM_FLY, 1)){
                    // If Mon already knows FLASH and the HM is in the bag, prevent it from being added to action list
@@ -2883,11 +2884,15 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
                        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, j + MENU_FIELD_MOVES);
                     }
                 }
+=======
+                AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, j + MENU_FIELD_MOVES);
+>>>>>>> parent of 76abacb512 (HMs without knowing the HMs (after the respective badge was unlocked))
                 break;
             }
         }
     }
 
+<<<<<<< HEAD
      // If Mon can learn HM02 and action list consists of < 4 moves, add FLY to action list
     if (sPartyMenuInternal->numActions < 5 && CanLearnTeachableMove(&mons[slotId], ITEM_HM02 - ITEM_TM01) && CheckBagHasItem(ITEM_HM02_FLY, 1)) 
    AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 5 + MENU_FIELD_MOVES);
@@ -2895,6 +2900,8 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
     if (sPartyMenuInternal->numActions < 5 && CanLearnTeachableMove(&mons[slotId], ITEM_HM05 - ITEM_TM01) && CheckBagHasItem(ITEM_HM05_FLASH, 1)) 
         AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, 1 + MENU_FIELD_MOVES);
 
+=======
+>>>>>>> parent of 76abacb512 (HMs without knowing the HMs (after the respective badge was unlocked))
     if (!InBattlePike())
     {
         if (GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE)
@@ -5405,45 +5412,6 @@ bool8 MonKnowsMove(struct Pokemon *mon, u16 move)
             return TRUE;
     }
     return FALSE;
-}
-
-bool8 PlayerHasMove(u16 move)
-{
-   u16 item;
-   switch (move)
-   {
-   case MOVE_SECRET_POWER:
-       item = ITEM_TM43;
-       break;
-   case MOVE_CUT:
-       item = ITEM_HM01;
-       break;
-   case MOVE_FLY:
-       item = ITEM_HM02;
-      break;
-  case MOVE_SURF:
-      item = ITEM_HM03;
-      break;
-   case MOVE_STRENGTH:
-       item = ITEM_HM04;
-       break;
-   case MOVE_FLASH:
-      item = ITEM_HM05;
-        break;
-    case MOVE_ROCK_SMASH:
-       item = ITEM_HM06;
-       break;
-   case MOVE_WATERFALL:
-      item = ITEM_HM07;
-       break;
-  case MOVE_DIVE:
-       item = ITEM_HM08;
-       break;
-   default:
-        return FALSE;
-       break;
-   }
-    return CheckBagHasItem(item, 1);
 }
 
 bool8 BoxMonKnowsMove(struct BoxPokemon *boxMon, u16 move)
