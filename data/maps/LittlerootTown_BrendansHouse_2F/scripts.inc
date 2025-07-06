@@ -666,4 +666,4 @@ LittlerootTown_BrendansHouse_2F_CheatConsole_Text_2:
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_3:
 # 319 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Receive (gold) Nuggets?$"
+	.string "Receive Big Nuggets?$"
