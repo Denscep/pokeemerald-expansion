@@ -612,7 +612,7 @@ LittlerootTown_BrendansHouse_2F_CheatConsole::
 	compare VAR_RESULT, YES
 	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_2
 LittlerootTown_BrendansHouse_2F_CheatConsole_1:
-# 320 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 325 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	releaseall
 	return
 
@@ -627,7 +627,13 @@ LittlerootTown_BrendansHouse_2F_CheatConsole_4:
 	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_2, MSGBOX_YESNO
 # 315 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	compare VAR_RESULT, YES
-	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_7
+	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_8
+LittlerootTown_BrendansHouse_2F_CheatConsole_7:
+# 319 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_3, MSGBOX_YESNO
+# 320 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_10
 	goto LittlerootTown_BrendansHouse_2F_CheatConsole_1
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_5:
@@ -635,9 +641,14 @@ LittlerootTown_BrendansHouse_2F_CheatConsole_5:
 	giveitem ITEM_RARE_CANDY, 999
 	goto LittlerootTown_BrendansHouse_2F_CheatConsole_4
 
-LittlerootTown_BrendansHouse_2F_CheatConsole_7:
+LittlerootTown_BrendansHouse_2F_CheatConsole_8:
 # 316 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	giveitem ITEM_MASTER_BALL, 999
+	goto LittlerootTown_BrendansHouse_2F_CheatConsole_7
+
+LittlerootTown_BrendansHouse_2F_CheatConsole_10:
+# 321 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	giveitem ITEM_BIG_NUGGET, 999
 	goto LittlerootTown_BrendansHouse_2F_CheatConsole_1
 
 
@@ -652,3 +663,7 @@ LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1:
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_2:
 # 314 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Receive Master Balls?$"
+
+LittlerootTown_BrendansHouse_2F_CheatConsole_Text_3:
+# 319 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "Receive (gold) Nuggets?$"
