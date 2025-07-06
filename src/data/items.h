@@ -2178,10 +2178,10 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Max Repel"),
         .price = 25,
-        .holdEffectParam = 500,
+        .holdEffectParam = 250,
         .description = COMPOUND_STRING(
             "Repels weak wild\n"
-            "Pokémon for 500\n"
+            "Pokémon for 250\n"
             "steps."),
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
