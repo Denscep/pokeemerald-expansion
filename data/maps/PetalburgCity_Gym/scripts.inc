@@ -1181,8 +1181,8 @@ PetalburgCity_Gym_Text_WallyOhWowThankYou:
 	.string "Thank you!$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
-	.string "{PLAYER}… Would you really come\n"
-	.string "with me?$"
+	.string "WALLY: {PLAYER}… Would you really\n"
+	.string "come with me?$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
 	.string "DAD: So, did it work out?$"
