@@ -559,7 +559,7 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 # 280 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "...\p"
 # 281 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Good!\p"
+	.string "Good!$"
 # 282 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
 # 283 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
@@ -599,7 +599,7 @@ LittlerootTown_BrendansHouse_2F_CheatConsole::
 # 302 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	lockall
 # 303 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	goto_if_set FLAG_RESCUED_BIRCH, LittlerootTown_BrendansHouse_2F_CheatConsole_2
+	goto_if_set FLAG_SYS_POKEMON_GET, LittlerootTown_BrendansHouse_2F_CheatConsole_2
 # 324 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_4
 LittlerootTown_BrendansHouse_2F_CheatConsole_1:
