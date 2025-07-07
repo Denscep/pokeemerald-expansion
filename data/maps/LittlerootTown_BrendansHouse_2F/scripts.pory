@@ -300,7 +300,7 @@ PlayersHouse_2F_Text_ItsAGameCube:
 
 script LittlerootTown_BrendansHouse_2F_CheatConsole {
     lockall
-	if(flag(FLAG_SYS_POKEDEX_GET)){
+	if(flag(FLAG_RESCUED_BIRCH)){
 		msgbox(format("Do you wish to access cheat items?"), MSGBOX_YESNO)
 		if(var(VAR_RESULT) == YES) {
 			msgbox(format("Receive Rare Candies?"), MSGBOX_YESNO)

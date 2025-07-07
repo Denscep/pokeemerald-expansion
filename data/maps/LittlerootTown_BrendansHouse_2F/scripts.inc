@@ -671,5 +671,5 @@ LittlerootTown_BrendansHouse_2F_CheatConsole_Text_3:
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_4:
 # 324 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Cheat items will become available after\n"
-	.string "you received your starter.$"
+	.string "You will be able to access cheat items\n"
+	.string "here after receiving your starter.$"
