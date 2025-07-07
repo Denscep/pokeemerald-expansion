@@ -599,8 +599,7 @@ LittlerootTown_BrendansHouse_2F_CheatConsole::
 # 302 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	lockall
 # 303 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	compare FLAG_RESCUED_BIRCH, TRUE
-	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_2
+	goto_if_set FLAG_SYS_POKEDEX_GET, LittlerootTown_BrendansHouse_2F_CheatConsole_2
 LittlerootTown_BrendansHouse_2F_CheatConsole_1:
 # 326 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	releaseall
