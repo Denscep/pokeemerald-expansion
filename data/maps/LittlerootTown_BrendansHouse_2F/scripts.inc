@@ -604,6 +604,8 @@ LittlerootTown_BrendansHouse_2F_CheatConsole::
 	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_4
 LittlerootTown_BrendansHouse_2F_CheatConsole_1:
 # 327 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	waitmessage
+# 328 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	releaseall
 	return
 
