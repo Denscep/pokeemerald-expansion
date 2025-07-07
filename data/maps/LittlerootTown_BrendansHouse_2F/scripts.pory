@@ -324,5 +324,6 @@ script LittlerootTown_BrendansHouse_2F_CheatConsole {
         msgbox(format("Cheat items will become available after you received your starter."))
 	}
 	
+	waitmessage
     releaseall
 }
