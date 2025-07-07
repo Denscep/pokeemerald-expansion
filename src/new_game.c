@@ -214,7 +214,7 @@ void NewGameInitData(void)
     ResetDexNav();
     ClearFollowerNPCData();
 
-    gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SET // Ensuring battle stlye is set to SET
+    gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SET; // Ensuring battle stlye is set to SET
 }
 
 static void ResetMiniGamesRecords(void)
