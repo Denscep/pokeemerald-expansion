@@ -289,8 +289,8 @@ PlayersHouse_1F_Text_IsntItNiceInHere:
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "{PLAYER}, your room is upstairs.\n"
-	.string "DAD bought you a new clock to mark\n"
-	.string "our move here.\l"
+	.string "DAD bought you a new clock to mark\l"
+	.string "our move here.\p"
 	.string "Don't forget to set it!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
