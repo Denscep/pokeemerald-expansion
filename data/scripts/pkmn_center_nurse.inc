@@ -57,10 +57,14 @@ EventScript_PkmnCenterNurse_CheckTrainerHillAndUnionRoom::
 EventScript_PkmnCenterNurse_ReturnPkmn::
 	goto_if_eq VAR_0x8004, 1, EventScript_PkmnCenterNurse_ReturnPkmn2
 	applymovement VAR_0x800B, Movement_PkmnCenterNurse_Bow
+	message gText_RestoredPkmnToFullHealth
+	waitmessage
 	return
 
 EventScript_PkmnCenterNurse_ReturnPkmn2::
 	applymovement VAR_0x800B, Movement_PkmnCenterNurse_Bow
+	message gText_RestoredPkmnToFullHealth
+	waitmessage
 	return
 
 EventScript_PkmnCenterNurse_PlayerWaitingInUnionRoom::
