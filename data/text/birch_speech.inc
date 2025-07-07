@@ -36,7 +36,7 @@ gText_Birch_YourePlayer::
 	.string "$"
 
 gText_Birch_AreYouReady::
-	.string "Thank you for choosing\n"
+	.string "Thank you for playing\n"
 	.string "Pokémon Forever Emerald, {PLAYER}!\p"
 	.string "Anyway, I'll be expecting you later.\n"
 	.string "Come see me in my POKéMON LAB.\p"
