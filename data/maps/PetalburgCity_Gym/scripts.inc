@@ -1153,7 +1153,7 @@ PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "WALLY: I thought I would be lonely by\n"
 	.string "myself, so I wanted to take a\l"
-	.string "PokéMON alon.g\p"
+	.string "POKéMON along.\p"
 	.string "I don't know how to catch one...$"
 
 PetalburgCity_Gym_Text_DadHmISee:
