@@ -214,6 +214,7 @@ void NewGameInitData(void)
     ResetDexNav();
     ClearFollowerNPCData();
 
+    gSaveBlock2Ptr->optionsTextSpeed = OPTIONS_TEXT_SPEED_FAST; // Ensuring text speed is set to FAST
     gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SET; // Ensuring battle stlye is set to SET
 }
 
