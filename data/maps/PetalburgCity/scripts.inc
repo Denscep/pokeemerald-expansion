@@ -33,9 +33,7 @@ PetalburgCity_EventScript_WallyTutorial::
 	lockall
 	special SavePlayerParty
 	special LoadWallyZigzagoon
-	fadescreen FADE_TO_BLACK
-	delay 20
-	fadescreen FADE_FROM_BLACK
+
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	setvar VAR_PETALBURG_CITY_STATE, 3
 	fadedefaultbgm
