@@ -15,7 +15,7 @@ gText_Birch_MainSpeech::
 	.string "$"
 
 gText_Birch_AndYouAre::
-	.string "So what's your name?$"
+	.string "So, tell me about you.$"
 
 gText_Birch_BoyOrGirl::
 	.string "Are you a boy?\n"
