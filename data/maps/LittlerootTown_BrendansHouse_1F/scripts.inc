@@ -294,7 +294,8 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "Don't forget to set it!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
-	.string "MOM: Set your clock, {PLAYER}.$"
+	.string "MOM: Don't you want to see your\n"
+	.string "room, {PLAYER}?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
 	.string "MOM: {PLAYER}.\p"
