@@ -600,8 +600,10 @@ LittlerootTown_BrendansHouse_2F_CheatConsole::
 	lockall
 # 303 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	goto_if_set FLAG_SYS_POKEDEX_GET, LittlerootTown_BrendansHouse_2F_CheatConsole_2
+# 324 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_4
 LittlerootTown_BrendansHouse_2F_CheatConsole_1:
-# 326 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 327 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	releaseall
 	return
 
@@ -610,12 +612,10 @@ LittlerootTown_BrendansHouse_2F_CheatConsole_2:
 	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_0, MSGBOX_YESNO
 # 305 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	compare VAR_RESULT, YES
-	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_4
-# 322 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_4
+	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_5
 	goto LittlerootTown_BrendansHouse_2F_CheatConsole_1
 
-LittlerootTown_BrendansHouse_2F_CheatConsole_4:
+LittlerootTown_BrendansHouse_2F_CheatConsole_5:
 # 306 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1, MSGBOX_YESNO
 # 307 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
@@ -668,6 +668,6 @@ LittlerootTown_BrendansHouse_2F_CheatConsole_Text_3:
 	.string "Receive Big Nuggets?$"
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_4:
-# 322 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 324 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Cheat items will become available after\n"
 	.string "you received your starter.$"
