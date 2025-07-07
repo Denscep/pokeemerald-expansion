@@ -6,7 +6,6 @@ gText_IllTakeYourPkmn::
 	.string "for a few seconds.$"
 
 gText_RestoredPkmnToFullHealth::
-	.string "Thank you for waiting.\p"
 	.string "We've restored your POKéMON\n"
 	.string "to full health.$"
 
@@ -33,7 +32,6 @@ gText_NoticesGoldCard::
 	.string "the honor of resting your POKéMON!$"
 
 gText_YouWantTheUsual::
-	.string "I'm delighted to see you, {PLAYER}!\n"
 	.string "You want the usual, am I right?$"
 
 gText_IllTakeYourPkmn2::
