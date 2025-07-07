@@ -1140,10 +1140,10 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
 	.string "You're with your POKéMON.\p"
 	.string "Hm… Then I guess you're going to\n"
 	.string "become a TRAINER like me, {PLAYER}.\p"
-	.string "That's great news!\n"
+	.string "That's great news!$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
-	.string "Um… I…\n"
+	.string "WALLY: Um… I…\n"
 	.string "I'd like to get a POKéMON, please…$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
@@ -1152,7 +1152,8 @@ PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "WALLY: I thought I would be lonely by\n"
-	.string "myself, so I wanted to take a POKéMON along.\p"
+	.string "myself, so I wanted to take a\n"
+	.string "PokéMON alon.g\p"
 	.string "I don't know how to catch one...$"
 
 PetalburgCity_Gym_Text_DadHmISee:
@@ -1196,17 +1197,14 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "Bye, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
-	.string "DAD: Now…\p"
+	.string "DAD: What a weirdo.\p"
+	.string "Now...\p"
 	.string "{PLAYER}, if you want to become a\n"
 	.string "strong TRAINER, here's my advice.\p"
 	.string "Head for RUSTBORO CITY beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
 	.string "the GYM LEADER, ROXANNE.\p"
-	.string "After her, go on to other POKéMON\n"
-	.string "GYMS and defeat their LEADERS.\p"
-	.string "Collect BADGES from them,\n"
-	.string "understood?\p"
 	.string "Of course, I'm a GYM LEADER, too.\n"
 	.string "We'll battle one day, {PLAYER}.\p"
 	.string "But that's only after you become\n"
