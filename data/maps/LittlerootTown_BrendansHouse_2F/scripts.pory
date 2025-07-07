@@ -318,10 +318,11 @@ script LittlerootTown_BrendansHouse_2F_CheatConsole {
 				giveitem(ITEM_BIG_NUGGET, 999)
 			}
 		
-		} else {
+		} 
+    } 
+	else {
         msgbox(format("Cheat items will become available after you received your starter."))
-    }
 	}
-
+	
     releaseall
 }
