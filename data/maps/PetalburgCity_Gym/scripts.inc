@@ -173,7 +173,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial::
 	msgbox PetalburgCity_Gym_Text_WouldYouReallyComeWithMe, MSGBOX_DEFAULT
 	closemessage
 	setflag FLAG_DONT_TRANSITION_MUSIC
-	playbgm MUS_FOLLOW_ME, FALSE
+	playbgm MUS_FOLLOW_ME, FALSEs
 	removeobject LOCALID_PETALBURG_GYM_WALLY
 	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM
 	setvar VAR_PETALBURG_GYM_STATE, 1
