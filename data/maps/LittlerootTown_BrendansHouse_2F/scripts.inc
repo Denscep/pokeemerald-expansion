@@ -557,113 +557,118 @@ PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
 # 279 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "new room?\p"
 # 280 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Good! Everything's put away neatly!\p"
+	.string "...\p"
 # 281 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "They finished moving everything in\n"
+	.string "Good!\p"
 # 282 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "downstairs, too.\p"
-# 283 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "POKéMON movers are so convenient!\p"
-# 284 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "Oh, you should make sure that\n"
-# 285 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "everything's all there on your desk.$"
-# 286 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
-# 287 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 283 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 PlayersHouse_2F_Text_Notebook:
-# 288 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 284 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "{PLAYER} flipped open the notebook.\p"
-# 289 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 285 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "ADVENTURE RULE NO. 1\n"
-# 290 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 286 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Open the MENU with START.\p"
-# 291 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 287 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "ADVENTURE RULE NO. 2\n"
-# 292 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 288 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Record your progress with SAVE.\p"
-# 293 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 289 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "The remaining pages are blank…$"
+# 290 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+
+# 291 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+Common_Text_LookCloserAtMap:
+# 292 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "{PLAYER} took a closer look at the\n"
+# 293 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "HOENN region map.$"
 # 294 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 
 # 295 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-Common_Text_LookCloserAtMap:
-# 296 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "{PLAYER} took a closer look at the\n"
-# 297 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	.string "HOENN region map.$"
-# 298 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-
-# 299 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 PlayersHouse_2F_Text_ItsAGameCube:
-# 300 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 296 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "It's a Nintendo GameCube.\p"
-# 301 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 297 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "A Game Boy Advance is connected to\n"
-# 302 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 298 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "serve as the Controller.$"
 
 LittlerootTown_BrendansHouse_2F_CheatConsole::
-# 306 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 302 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	lockall
-# 307 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_0, MSGBOX_YESNO
-# 308 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	compare VAR_RESULT, YES
+# 303 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	compare FLAG_RESCUED_BIRCH, TRUE
 	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_2
 LittlerootTown_BrendansHouse_2F_CheatConsole_1:
-# 325 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 326 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	releaseall
 	return
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_2:
-# 309 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1, MSGBOX_YESNO
-# 310 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 304 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_0, MSGBOX_YESNO
+# 305 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	compare VAR_RESULT, YES
-	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_5
+	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_4
+# 322 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_4
+	goto LittlerootTown_BrendansHouse_2F_CheatConsole_1
+
 LittlerootTown_BrendansHouse_2F_CheatConsole_4:
-# 314 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_2, MSGBOX_YESNO
-# 315 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 306 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1, MSGBOX_YESNO
+# 307 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	compare VAR_RESULT, YES
 	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_8
 LittlerootTown_BrendansHouse_2F_CheatConsole_7:
-# 319 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_3, MSGBOX_YESNO
-# 320 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 311 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_2, MSGBOX_YESNO
+# 312 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	compare VAR_RESULT, YES
-	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_10
+	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_11
+LittlerootTown_BrendansHouse_2F_CheatConsole_10:
+# 316 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	msgbox LittlerootTown_BrendansHouse_2F_CheatConsole_Text_3, MSGBOX_YESNO
+# 317 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	compare VAR_RESULT, YES
+	goto_if_eq LittlerootTown_BrendansHouse_2F_CheatConsole_13
 	goto LittlerootTown_BrendansHouse_2F_CheatConsole_1
 
-LittlerootTown_BrendansHouse_2F_CheatConsole_5:
-# 311 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	giveitem ITEM_RARE_CANDY, 999
-	goto LittlerootTown_BrendansHouse_2F_CheatConsole_4
-
 LittlerootTown_BrendansHouse_2F_CheatConsole_8:
-# 316 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
-	giveitem ITEM_MASTER_BALL, 999
+# 308 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	giveitem ITEM_RARE_CANDY, 999
 	goto LittlerootTown_BrendansHouse_2F_CheatConsole_7
 
-LittlerootTown_BrendansHouse_2F_CheatConsole_10:
-# 321 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+LittlerootTown_BrendansHouse_2F_CheatConsole_11:
+# 313 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	giveitem ITEM_MASTER_BALL, 999
+	goto LittlerootTown_BrendansHouse_2F_CheatConsole_10
+
+LittlerootTown_BrendansHouse_2F_CheatConsole_13:
+# 318 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	giveitem ITEM_BIG_NUGGET, 999
 	goto LittlerootTown_BrendansHouse_2F_CheatConsole_1
 
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_0:
-# 307 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 304 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Do you wish to access cheat items?$"
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_1:
-# 309 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 306 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Receive Rare Candies?$"
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_2:
-# 314 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 311 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Receive Master Balls?$"
 
 LittlerootTown_BrendansHouse_2F_CheatConsole_Text_3:
-# 319 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+# 316 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
 	.string "Receive Big Nuggets?$"
+
+LittlerootTown_BrendansHouse_2F_CheatConsole_Text_4:
+# 322 "data/maps/LittlerootTown_BrendansHouse_2F/scripts.pory"
+	.string "Cheat items will become available after\n"
+	.string "you received your starter.$"
