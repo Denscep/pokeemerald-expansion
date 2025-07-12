@@ -14744,12 +14744,10 @@ F_TRAINER_FEMALE |
 #line 5952
             .species = SPECIES_EEVEE,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 5952
-            .heldItem = ITEM_SILK_SCARF,
 #line 5954
-            .iv = TRAINER_PARTY_IVS(0, 12, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(0, 5, 0, 0, 0, 0),
 #line 5953
-            .lvl = 6,
+            .lvl = 5,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
