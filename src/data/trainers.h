@@ -14745,11 +14745,11 @@ F_TRAINER_FEMALE |
             .species = SPECIES_EEVEE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 5955
-            .iv = TRAINER_PARTY_IVS(0, 2, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 5954
             .ability = ABILITY_ADAPTABILITY,
 #line 5953
-            .lvl = 4,
+            .lvl = 5,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
