@@ -5947,11 +5947,13 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Aipom
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Eevee @ Silk Scarf
+Level: 6
+IVs: 0 HP / 12 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+- Quick Attack
+- Tickle
 
 === TRAINER_BILLY ===
 Name: BILLY
