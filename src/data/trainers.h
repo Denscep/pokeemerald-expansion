@@ -14745,7 +14745,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_EEVEE,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 5954
-            .iv = TRAINER_PARTY_IVS(0, 5, 0, 0, 0, 0),
+            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
 #line 5953
             .lvl = 5,
             .nature = NATURE_HARDY,
@@ -14753,7 +14753,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 5955
                 MOVE_QUICK_ATTACK,
-                MOVE_TICKLE,
+                MOVE_TAIL_WHIP,
             },
             },
         },
