@@ -86,7 +86,7 @@ Route102_Text_WallyIDidIt:
 	.string "My POKéMON!$"
 
 Route102_Text_LetsGoBack:
-	.string "Nevermind, {PLAYER}.\p"
+	.string "WALLY: Nevermind, {PLAYER}.\p"
 	.string "Let's go back to the GYM!$"
 
 Route102_Text_ImNotVeryTall:
