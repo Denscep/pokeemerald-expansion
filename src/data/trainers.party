@@ -5947,7 +5947,7 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer / AI_FLAG_PREFER_STATUS_MOVES
+AI: AI_FLAG_SMART_TRAINER
 
 Eevee
 Level: 4
