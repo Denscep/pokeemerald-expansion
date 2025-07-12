@@ -14755,7 +14755,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 5956
                 MOVE_QUICK_ATTACK,
-                MOVE_TAIL_WHIP,
+                MOVE_CHARM,
             },
             },
         },
