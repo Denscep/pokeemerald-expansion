@@ -14749,13 +14749,13 @@ F_TRAINER_FEMALE |
 #line 5954
             .ability = ABILITY_ADAPTABILITY,
 #line 5953
-            .lvl = 5,
+            .lvl = 4,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
 #line 5956
                 MOVE_QUICK_ATTACK,
-                MOVE_TAIL_WHIP,
+                MOVE_CHARM,
             },
             },
         },

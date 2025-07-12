@@ -5947,14 +5947,14 @@ Pic: Youngster
 Gender: Male
 Music: Male
 Double Battle: No
-AI: Basic Trainer
+AI: Basic Trainer | AI_FLAG_PREFER_STATUS_MOVES
 
 Eevee
 Level: 4
 Ability: Adaptability
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack
-- Charm
+- Tail Whip
 
 === TRAINER_BILLY ===
 Name: BILLY
