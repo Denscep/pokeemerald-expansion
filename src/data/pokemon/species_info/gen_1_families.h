@@ -17530,10 +17530,10 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
     [SPECIES_EEVEE] =
     {
         .baseHP        = 55,
-        .baseAttack    = 55,
+        .baseAttack    = 60,
         .baseDefense   = 50,
-        .baseSpeed     = 55,
-        .baseSpAttack  = P_UPDATED_STATS >= GEN_2 ? 45 : 65,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 45,
         .baseSpDefense = 65,
         .types = MON_TYPES(TYPE_NORMAL),
         .catchRate = 45,
