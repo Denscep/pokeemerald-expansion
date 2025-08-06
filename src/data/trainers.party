@@ -4796,7 +4796,7 @@ Gender: Female
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: AI_FLAG_SMART_TRAINER | AI_FLAG_ACE_POKEMON
+AI: AI_FLAG_SMART_TRAINER / AI_FLAG_ACE_POKEMON
 
 Sandshrew (M) @ Quick Claw  
 Ability: Tough Claws  
