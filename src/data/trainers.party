@@ -4796,31 +4796,45 @@ Gender: Female
 Music: Female
 Items: Potion / Potion
 Double Battle: No
-AI: Basic Trainer
+AI: AI_FLAG_SMART_TRAINER | AI_FLAG_ACE_POKEMON
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Sandshrew (M) @ Quick Claw  
+Ability: Tough Claws  
+Level: 13  
+IVs: 12 HP / 31 Atk / 31 Def / 12 SpA / 12 SpD / 12 Spe
+Tera Type: Ground  
+- Smack Down  
+- Fury Cutter  
+- Stealth Rock  
 
-Geodude
-Level: 12
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+Aron (M) @ Rocky Helmet  
+Ability: Solid Rock  
+Level: 14
+IVs: 12 HP / 31 Atk / 31 Def / 12 SpA / 12 SpD / 12 Spe
+Tera Type: Steel  
+- Rock Tomb  
+- Head Smash  
+- Harden  
 
-Nosepass @ Oran Berry
-Level: 15
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+Tirtouga (M) @ Rindo Berry  
+Ability: Solid Rock  
+Level: 14
+IVs: 12 HP / 31 Atk / 12 Def / 31 SpA / 12 SpD / 12 Spe
+Tera Type: Water  
+- Aqua Jet  
+- Water Gun  
+- Smack Down  
+- Crunch  
+
+Nosepass @ Eviolite
+IVs: 12 HP / 31 Atk / 31 Def / 31 SpA / 12 SpD / 12 Spe
+Ability: Sturdy  
+Level: 15  
+Tera Type: Rock  
+- Rock Tomb  
+- Tackle  
+- Thunder Punch  
+- Curse  
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
