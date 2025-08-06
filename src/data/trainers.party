@@ -4800,7 +4800,8 @@ AI: AI_FLAG_SMART_TRAINER / AI_FLAG_ACE_POKEMON
 
 Sandshrew (M) @ Quick Claw  
 Ability: Tough Claws  
-Level: 13  
+Level: 13
+Adamant Nature  
 IVs: 12 HP / 31 Atk / 31 Def / 12 SpA / 12 SpD / 12 Spe
 - Smack Down  
 - Fury Cutter  
@@ -4809,6 +4810,7 @@ IVs: 12 HP / 31 Atk / 31 Def / 12 SpA / 12 SpD / 12 Spe
 Aron (M) @ Rocky Helmet  
 Ability: Solid Rock  
 Level: 14
+Impish Nature
 IVs: 12 HP / 31 Atk / 31 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Tomb  
 - Headbutt 
@@ -4816,6 +4818,7 @@ IVs: 12 HP / 31 Atk / 31 Def / 12 SpA / 12 SpD / 12 Spe
 
 Tirtouga (M) @ Rindo Berry  
 Level: 14
+Serious Nature
 IVs: 12 HP / 31 Atk / 12 Def / 31 SpA / 12 SpD / 12 Spe
 - Aqua Jet  
 - Water Gun  
@@ -4823,6 +4826,7 @@ IVs: 12 HP / 31 Atk / 12 Def / 31 SpA / 12 SpD / 12 Spe
 - Crunch  
 
 Nosepass @ Eviolite
+Adamant Nature  
 IVs: 12 HP / 31 Atk / 31 Def / 31 SpA / 12 SpD / 12 Spe
 Ability: Sturdy  
 Level: 15  

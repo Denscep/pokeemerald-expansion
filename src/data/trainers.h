@@ -11912,7 +11912,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 4813
                 MOVE_ROCK_TOMB,
-                MOVE_HEAD_SMASH,
+                MOVE_HEADBUTT,
                 MOVE_HARDEN,
             },
             },
