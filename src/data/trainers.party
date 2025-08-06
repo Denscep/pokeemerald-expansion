@@ -4802,7 +4802,6 @@ Sandshrew (M) @ Quick Claw
 Ability: Tough Claws  
 Level: 13  
 IVs: 12 HP / 31 Atk / 31 Def / 12 SpA / 12 SpD / 12 Spe
-Tera Type: Ground  
 - Smack Down  
 - Fury Cutter  
 - Stealth Rock  
@@ -4811,13 +4810,11 @@ Aron (M) @ Rocky Helmet
 Ability: Solid Rock  
 Level: 14
 IVs: 12 HP / 31 Atk / 31 Def / 12 SpA / 12 SpD / 12 Spe
-Tera Type: Steel  
 - Rock Tomb  
 - Head Smash  
 - Harden  
 
 Tirtouga (M) @ Rindo Berry  
-Ability: Solid Rock  
 Level: 14
 IVs: 12 HP / 31 Atk / 12 Def / 31 SpA / 12 SpD / 12 Spe
 Tera Type: Water  
