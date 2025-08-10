@@ -1,5 +1,6 @@
 gText_Birch_Welcome::
-	.string "Hi! Sorry to keep you waiting!\p"
+	.string "Hey! Thanks for playing\n  
+	.string "POKéMON EVERMERALD V1.0!\p"
 	.string "My name is BIRCH.\p"
 	.string "But everyone calls me the POKéMON\n"
 	.string "PROFESSOR.\p"
@@ -36,8 +37,6 @@ gText_Birch_YourePlayer::
 	.string "$"
 
 gText_Birch_AreYouReady::
-	.string "Thank you for playing\n"
-	.string "Pokémon Forever Emerald, {PLAYER}!\p"
 	.string "Anyway, I'll be expecting you later.\n"
 	.string "Come see me in my POKéMON LAB.\p"
 	.string "$"
