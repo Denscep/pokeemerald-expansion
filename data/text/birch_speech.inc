@@ -1,5 +1,5 @@
 gText_Birch_Welcome::
-	.string "Hey! Thanks for playing\n  
+	.string "Hey! Thanks for playing\n"  
 	.string "POKéMON EVERMERALD V1.0!\p"
 	.string "My name is BIRCH.\p"
 	.string "But everyone calls me the POKéMON\n"
@@ -15,7 +15,7 @@ gText_Birch_MainSpeech::
 	.string "But you probably know that already.\p"
 	.string "$"
 
-gText_Birch_AndYouAre::
+gText_Birch_AndYouAre::‚
 	.string "So, tell me about you.$"
 
 gText_Birch_BoyOrGirl::
