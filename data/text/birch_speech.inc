@@ -15,7 +15,7 @@ gText_Birch_MainSpeech::
 	.string "But you probably know that already.\p"
 	.string "$"
 
-gText_Birch_AndYouAre::‚
+gText_Birch_AndYouAre::
 	.string "So, tell me about you.$"
 
 gText_Birch_BoyOrGirl::
