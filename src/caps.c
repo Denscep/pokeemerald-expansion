@@ -9,7 +9,7 @@ u32 GetCurrentLevelCap(void)
 {
     static const u32 sLevelCapFlagMap[][2] = // Level caps
     {
-        {FLAG_BADGE01_GET, 15},
+        {FLAG_BADGE01_GET, 14},
         {FLAG_BADGE02_GET, 19},
         {FLAG_BADGE03_GET, 24},
         {FLAG_BADGE04_GET, 29},
@@ -41,7 +41,7 @@ u32 GetCurrentLevelCap(void)
 u32 GetSoftLevelCapExpValue(u32 level, u32 expValue)
 {
     static const u32 sExpScalingDown[5] = { 5, 10, 20, 40, 80 }; // Amount by which the exp is divided after exceeding the level cap
-    static const u32 sExpScalingUp[5]   = { 100, 50, 25, 10, 3 }; // Amount of extra exp which is added below the level cap (gainedexp+gainedexp/divisor)
+    static const u32 sExpScalingUp[5]   = { 100, 50, 25, 10, 5 }; // Amount of extra exp which is added below the level cap (gainedexp+gainedexp/divisor)
 
     u32 levelDifference;
     u32 currentLevelCap = GetCurrentLevelCap();
