@@ -5964,18 +5964,11 @@ Double Battle: No
 AI: Basic Trainer
 
 Eevee
-Level: 4
+Level: 5
 Ability: Adaptability
-IVs: 0 HP / 2 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 0 HP / 10 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 - Quick Attack  
 - Charm
-
-Marill
-Level: 4
-Ability: Thick Fat
-IVs: 2 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Tackle  
-- Tail Whip
 
 === TRAINER_BILLY ===
 Name: BILLY
@@ -11281,13 +11274,18 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Wurmple
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Spinarak (M)  
+Ability: Poison Point  
+Level: 5  
+- Poison Sting  
+- String Shot  
 
-Wurmple
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Paras (M) @ Silk Scarf  
+Ability: Effect Spore  
+Level: 6
+- Scratch  
+
+
 
 === TRAINER_LYLE ===
 Name: LYLE

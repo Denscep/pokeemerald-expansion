@@ -1133,7 +1133,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
             "A toxic attack with barbs,\n"
             "etc., that may poison."),
         .effect = EFFECT_HIT,
-        .power = 15,
+        .power = 40,
         .type = TYPE_POISON,
         .accuracy = 100,
         .pp = 35,
@@ -1142,7 +1142,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .category = DAMAGE_CATEGORY_PHYSICAL,
         .additionalEffects = ADDITIONAL_EFFECTS({
             .moveEffect = MOVE_EFFECT_POISON,
-            .chance = 30,
+            .chance = 25,
         }),
         .contestEffect = CONTEST_EFFECT_STARTLE_PREV_MON,
         .contestCategory = CONTEST_CATEGORY_SMART,
