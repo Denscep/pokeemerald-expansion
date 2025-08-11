@@ -11960,7 +11960,7 @@ F_TRAINER_FEMALE |
             .moves = {
 #line 4834
                 MOVE_ROCK_BLAST,
-                MOVE_BODYSLAM,
+                MOVE_BODY_SLAM,
                 MOVE_THUNDER_PUNCH,
                 MOVE_CURSE,
             },
