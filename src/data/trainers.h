@@ -11880,7 +11880,7 @@ F_TRAINER_FEMALE |
 #line 4801
             .heldItem = ITEM_QUICK_CLAW,
 #line 4805
-            .iv = TRAINER_PARTY_IVS(12, 31, 31, 12, 12, 12),
+            .iv = TRAINER_PARTY_IVS(16, 31, 31, 16, 16, 16),
 #line 4802
             .ability = ABILITY_TOUGH_CLAWS,
 #line 4803
@@ -11903,9 +11903,9 @@ F_TRAINER_FEMALE |
 #line 4810
             .heldItem = ITEM_ROCKY_HELMET,
 #line 4814
-            .iv = TRAINER_PARTY_IVS(12, 31, 31, 12, 12, 12),
+            .iv = TRAINER_PARTY_IVS(16, 31, 16, 16, 16, 16),
 #line 4811
-            .ability = ABILITY_SOLID_ROCK,
+            .ability = ABILITY_STAMINA,
 #line 4812
             .lvl = 14,
 #line 4813
@@ -11915,7 +11915,7 @@ F_TRAINER_FEMALE |
 #line 4815
                 MOVE_ROCK_TOMB,
                 MOVE_HEADBUTT,
-                MOVE_HARDEN,
+                MOVE_ROAR,
             },
             },
             {
@@ -11926,7 +11926,7 @@ F_TRAINER_FEMALE |
 #line 4819
             .heldItem = ITEM_RINDO_BERRY,
 #line 4822
-            .iv = TRAINER_PARTY_IVS(12, 31, 12, 12, 31, 12),
+            .iv = TRAINER_PARTY_IVS(16, 31, 16, 16, 16, 16),
 #line 4820
             .lvl = 14,
 #line 4821
@@ -11947,7 +11947,7 @@ F_TRAINER_FEMALE |
 #line 4828
             .heldItem = ITEM_EVIOLITE,
 #line 4830
-            .iv = TRAINER_PARTY_IVS(12, 31, 31, 12, 31, 12),
+            .iv = TRAINER_PARTY_IVS(16, 31, 31, 16, 31, 16),
 #line 4831
             .ability = ABILITY_STURDY,
 #line 4832
