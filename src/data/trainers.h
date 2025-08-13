@@ -27810,7 +27810,7 @@ F_TRAINER_FEMALE |
 #line 11088
             .ability = ABILITY_SCRAPPY,
 #line 11089
-            .lvl = 7,
+            .lvl = 8,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
             .moves = {
