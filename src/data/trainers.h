@@ -11864,7 +11864,7 @@ F_TRAINER_FEMALE |
 #line 4796
             TRAINER_ENCOUNTER_MUSIC_FEMALE,
 #line 4797
-        .items = { ITEM_POTION, ITEM_POTION },
+        .items = { ITEM_SUPER_POTION, ITEM_SUPER_POTION },
 #line 4798
         .battleType = TRAINER_BATTLE_TYPE_SINGLES,
 #line 4799
