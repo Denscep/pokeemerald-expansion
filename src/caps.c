@@ -40,8 +40,8 @@ u32 GetCurrentLevelCap(void)
 
 u32 GetSoftLevelCapExpValue(u32 level, u32 expValue)
 {
-    static const u32 sExpScalingDown[5] = { 4, 10, 20, 40, 80 }; // Amount by which the exp is divided after exceeding the level cap
-    static const u32 sExpScalingUp[5]   = { 100, 50, 25, 10, 5 }; // Amount of extra exp which is added below the level cap (gainedexp+gainedexp/divisor)
+    static const u32 sExpScalingDown[5] = { 3, 8, 20, 40, 80 }; // Amount by which the exp is divided after exceeding the level cap
+    static const u32 sExpScalingUp[5]   = { 100, 50, 30, 20, 5 }; // Amount of extra exp which is added below the level cap (gainedexp+gainedexp/divisor)
 
     u32 levelDifference;
     u32 currentLevelCap = GetCurrentLevelCap();
