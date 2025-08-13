@@ -537,10 +537,10 @@ PetalburgCity_EventScript_Scott::
 	waitmovement 0
 	delay 30
 	msgbox PetalburgCity_Text_WellMaybeNot, MSGBOX_DEFAULT
-	closemessage
 	giveitem ITEM_EXP_SHARE
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_EXP_SHARE
+	closemessage
 	applymovement LOCALID_PETALBURG_SCOTT, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	delay 30
@@ -744,8 +744,8 @@ PetalburgCity_Text_AreYouATrainer:
 PetalburgCity_Text_WellMaybeNot:
 	.string "… … … … … …\p"
 	.string "Well, maybe not.\p"
-	.string "But take this Exp. Share.\p"
-	.string "I don't need it.\p"
+	.string "But take this EXP. SHARE.\p"
+	.string "I don't need it.$"
 
 PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"

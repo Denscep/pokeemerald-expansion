@@ -251,7 +251,7 @@ RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
 	.string "MR. STONE: I was going to give\n"
 	.string "you an EXP. SHARE, but they are\l"
 	.string "out of stock unfortunately.\p"
-	.string "So, you can have this BIG PEARL.\p"
+	.string "So, you can have this BIG PEARL.$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "MR. STONE: Since my youth, I've immersed\n"
