@@ -6234,11 +6234,11 @@ AI: Basic Trainer
 
 Surskit @ Lum Berry  
 Ability: Rattled  
-Level: 6  
+Level: 6
+IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 - Water Gun  
 - Mud Shot  
 - Quick Attack
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
 
 === TRAINER_TIMMY ===
 Name: TIMMY
