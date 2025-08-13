@@ -6235,10 +6235,17 @@ AI: Basic Trainer
 Surskit @ Lum Berry  
 Ability: Rattled  
 Level: 6
-IVs: 5 HP / 5 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe
+IVs: 5 HP / 5 Atk / 5 Def / 16 SpA / 5 SpD / 5 Spe
 - Water Gun  
 - Mud Shot  
-- Quick Attack
+- Pounce
+
+Azurill  
+Ability: Sap Sipper  
+Level: 6  
+IVs: 5 HP / 20 Atk / 5 Def / 5 SpA / 5 SpD / 5 Spe  
+- Bubble Beam  
+- Charm
 
 === TRAINER_TIMMY ===
 Name: TIMMY
@@ -11068,15 +11075,21 @@ Pic: Lass
 Gender: Female
 Music: Female
 Double Battle: No
-AI: Check Bad Move
+AI: Basic Trainer
 
-Zigzagoon
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Skitty (F) @ Lum Berry  
+Ability: Cute Charm  
+Level: 7  
+IVs: 5 HP / 5 Def / 5 SpA / 5 SpD / 5 Spe  
+- Fake Out  
+- Tackle  
 
-Shroomish
-Level: 4
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Taillow (M) @ Lum Berry  
+Ability: Scrappy  
+Level: 7  
+IVs: 6 HP / 20 Atk / 6 Def / 6 SpA / 6 SpD / 12 Spe  
+- Peck  
+- Work Up 
 
 === TRAINER_HALEY_1 ===
 Name: HALEY

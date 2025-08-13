@@ -15433,31 +15433,30 @@ F_TRAINER_FEMALE |
 #line 6232
         .battleType = TRAINER_BATTLE_TYPE_SINGLES,
 #line 6233
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE,
-        .partySize = 2,
+        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .partySize = 1,
         .party = (const struct TrainerMon[])
         {
             {
 #line 6235
-            .species = SPECIES_ZIGZAGOON,
+            .species = SPECIES_SURSKIT,
             .gender = TRAINER_MON_RANDOM_GENDER,
-#line 6237
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
+#line 6235
+            .heldItem = ITEM_LUM_BERRY,
+#line 6238
+            .iv = TRAINER_PARTY_IVS(5, 5, 5, 5, 5, 5),
 #line 6236
-            .lvl = 4,
+            .ability = ABILITY_RATTLED,
+#line 6237
+            .lvl = 6,
             .nature = NATURE_HARDY,
             .dynamaxLevel = MAX_DYNAMAX_LEVEL,
-            },
-            {
+            .moves = {
 #line 6239
-            .species = SPECIES_TAILLOW,
-            .gender = TRAINER_MON_RANDOM_GENDER,
-#line 6241
-            .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
-#line 6240
-            .lvl = 3,
-            .nature = NATURE_HARDY,
-            .dynamaxLevel = MAX_DYNAMAX_LEVEL,
+                MOVE_WATER_GUN,
+                MOVE_MUD_SHOT,
+                MOVE_QUICK_ATTACK,
+            },
             },
         },
     },
